@@ -16,7 +16,7 @@ jobs:
       - run:
           name: run links tests
           command: |
-            awesome_bot -f README.md, noLoremIpsumplz.md --base-url https://github.com/awie3di/foam/blob/$CIRCLE_BRANCH/
+            awesome_bot -f README.md,noLoremIpsumplz.md --base-url https://github.com/awie3di/foam/blob/$CIRCLE_BRANCH/
 
 workflows:
    version: 2
